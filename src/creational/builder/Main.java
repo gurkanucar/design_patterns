@@ -14,6 +14,13 @@ public class Main {
 
         System.out.println(person.toString());
 
+        Book book = new Book.Builder().id(1L)
+                .isbn("1234")
+                .title("title")
+                .description("desc")
+                .build();
+
+        System.out.println(book.toString());
     }
 
 }
