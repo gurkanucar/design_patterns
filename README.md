@@ -2,3 +2,4 @@
 
 ![image](./slides/design%20patterns.png)
 ![image](./slides/design%20patterns%20(1).png)
+![image](./slides/design%20patterns%20(2).png)
