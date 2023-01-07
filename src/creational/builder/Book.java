@@ -6,6 +6,11 @@ public class Book {
     private final String title;
     private final String description;
 
+
+    public static Builder builder() {
+        return new Builder();
+    }
+
     private Book(Builder builder) {
         this.id = builder.id;
         this.isbn = builder.isbn;
